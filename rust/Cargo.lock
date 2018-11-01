@@ -951,7 +951,7 @@ dependencies = [
 [[package]]
 name = "syntect"
 version = "3.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
+source = "git+https://github.com/cmyr/syntect.git?branch=feature/metadata#b3bb1fbb4c78dd00027e92c3c481194715f25e5f"
 dependencies = [
  "bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -962,6 +962,23 @@ dependencies = [
  "onig 4.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "plist 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "regex-syntax 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_derive 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_json 1.0.32 (registry+https://github.com/rust-lang/crates.io-index)",
+ "walkdir 2.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "syntect"
+version = "3.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "flate2 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "lazy_static 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "lazycell 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "plist 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.32 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1289,7 +1306,7 @@ version = "0.0.0"
 dependencies = [
  "serde 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.80 (registry+https://github.com/rust-lang/crates.io-index)",
- "syntect 3.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "syntect 3.0.1 (git+https://github.com/cmyr/syntect.git?branch=feature/metadata)",
  "toml 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "xi-core-lib 0.2.0",
  "xi-plugin-lib 0.1.0",
@@ -1450,6 +1467,7 @@ dependencies = [
 "checksum stable_deref_trait 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8"
 "checksum syn 0.15.15 (registry+https://github.com/rust-lang/crates.io-index)" = "0a9c2bf1e53c21704a7cce1b2a42768f1ae32a6777108a0d7f1faa4bfe7f7c04"
 "checksum synstructure 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = "73687139bf99285483c96ac0add482c3776528beac1d97d444f6e91f203a2015"
+"checksum syntect 3.0.1 (git+https://github.com/cmyr/syntect.git?branch=feature/metadata)" = "<none>"
 "checksum syntect 3.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "b76ed0acb8b4012c8ed2d3df01f018ac25c3fd916914768b4f4a8b8bebe106ff"
 "checksum tempdir 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)" = "15f2b5fb00ccdf689e0149d1b1b3c03fead81c2b37735d812fa8bddbbf41b6d8"
 "checksum thread_local 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "c6b53e329000edc2b34dbe8545fd20e55a333362d0a321909685a19bd28c3f1b"
